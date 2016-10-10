@@ -1,0 +1,1444 @@
+{
+  "words":
+  [
+    {
+      "text": "string",
+      "type": "package"
+    },
+    {
+      "text": "table",
+      "type": "package"
+    },
+    {
+      "text": "math",
+      "type": "package"
+    },
+    {
+      "text": "coroutine",
+      "type": "package"
+    },
+    {
+      "text": "io",
+      "type": "package"
+    },
+    {
+      "text": "os",
+      "type": "package"
+    },
+    {
+      "text": "debug",
+      "type": "package"
+    },
+    {
+      "text": "package",
+      "type": "package"
+    },
+    {
+      "text": "bit",
+      "type": "package"
+    },
+    {
+      "text": "jit",
+      "type": "package"
+    },
+    {
+      "text": "ffi",
+      "type": "package"
+    },
+    {
+      "text": "assert",
+      "type": "function",
+      "displayText": "assert(v [, message])",
+      "snippet": "assert(${1:v}, ${2:[message]})"
+    },
+    {
+      "text": "collectgarbage",
+      "type": "function",
+      "displayText": "collectgarbage([opt [, arg]])",
+      "snippet": "collectgarbage(${1:[opt]}, ${2:[arg]})"
+    },
+    {
+      "text": "dofile",
+      "type": "function",
+      "displayText": "dofile([filename])",
+      "snippet": "dofile(${1:[filename]})"
+    },
+    {
+      "text": "error",
+      "type": "function",
+      "displayText": "error(message [, level])",
+      "snippet": "error(${1:message}, ${2:[level]})"
+    },
+    {
+      "text": "getfenv",
+      "type": "function",
+      "displayText": "getfenv([f])",
+      "snippet": "getfenv(${1:[f]})"
+    },
+    {
+      "text": "getmetatable",
+      "type": "function",
+      "displayText": "getmetatable(object)",
+      "snippet": "getmetatable(${1:object})"
+    },
+    {
+      "text": "ipairs",
+      "type": "function",
+      "displayText": "ipairs(t)",
+      "snippet": "ipairs(${1:t})"
+    },
+    {
+      "text": "load",
+      "type": "function",
+      "displayText": "load(ld [, source [, mode [, env]]])",
+      "snippet": "load(${1:ld}, ${2:[source]}, ${3:[mode]}, ${4:[env]})"
+    },
+    {
+      "text": "loadfile",
+      "type": "function",
+      "displayText": "loadfile([filename [, mode [, env]]])",
+      "snippet": "loadfile(${1:[filename]}, ${2:[mode]}, ${3:[env]})"
+    },
+    {
+      "text": "loadstring",
+      "type": "function",
+      "displayText": "loadstring(ld [, source [, mode [, env]]])",
+      "snippet": "loadstring(${1:ld}, ${2:[source]}, ${3:[mode]}, ${4:[env]})"
+    },
+    {
+      "text": "module",
+      "type": "function",
+      "displayText": "module(name [, ...])",
+      "snippet": "module(${1:name})"
+    },
+    {
+      "text": "next",
+      "type": "function",
+      "displayText": "next(table [, index])",
+      "snippet": "next(${1:table}, ${2:[index]})"
+    },
+    {
+      "text": "pairs",
+      "type": "function",
+      "displayText": "pairs(t)",
+      "snippet": "pairs(${1:t})"
+    },
+    {
+      "text": "pcall",
+      "type": "function",
+      "displayText": "pcall(f, arg1, ...)",
+      "snippet": "pcall(${1:f}, ${2:arg1})"
+    },
+    {
+      "text": "print",
+      "type": "function",
+      "displayText": "print(v, ...)",
+      "snippet": "print(${1:v})"
+    },
+    {
+      "text": "rawequal",
+      "type": "function",
+      "displayText": "rawequal(v1, v2)",
+      "snippet": "rawequal(${1:v1}, ${2:v2})"
+    },
+    {
+      "text": "rawget",
+      "type": "function",
+      "displayText": "rawget(table, index)",
+      "snippet": "rawget(${1:table}, ${2:index})"
+    },
+    {
+      "text": "rawlen",
+      "type": "function",
+      "displayText": "rawlen(v)",
+      "snippet": "rawlen(${1:v})"
+    },
+    {
+      "text": "rawset",
+      "type": "function",
+      "displayText": "rawset(table, index, value)",
+      "snippet": "rawset(${1:table}, ${2:index}, ${3:value})"
+    },
+    {
+      "text": "require",
+      "type": "function",
+      "displayText": "require(modname)",
+      "snippet": "require(${1:modname})"
+    },
+    {
+      "text": "select",
+      "type": "function",
+      "displayText": "select(index, ...)",
+      "snippet": "select(${1:index}, ${2:...})"
+    },
+    {
+      "text": "setfenv",
+      "type": "function",
+      "displayText": "setfenv(f, table)",
+      "snippet": "setfenv(${1:f}, ${2:table})"
+    },
+    {
+      "text": "setmetatable",
+      "type": "function",
+      "displayText": "setmetatable(table, metatable)",
+      "snippet": "setmetatable(${1:table}, ${2:metatable})"
+    },
+    {
+      "text": "tonumber",
+      "type": "function",
+      "displayText": "tonumber(e [, base])",
+      "snippet": "tonumber(${1:e}, ${2:[base]})"
+    },
+    {
+      "text": "tostring",
+      "type": "function",
+      "displayText": "tostring(e)",
+      "snippet": "tostring(${1:e})"
+    },
+    {
+      "text": "type",
+      "type": "function",
+      "displayText": "type(v)",
+      "snippet": "type(${1:v})"
+    },
+    {
+      "text": "unpack",
+      "type": "function",
+      "displayText": "unpack(list [, i [, j]])",
+      "snippet": "unpack(${1:list}, ${2:[i]}, ${3:[j]})"
+    },
+    {
+      "text": "xpcall",
+      "type": "function",
+      "displayText": "xpcall(f, err)",
+      "snippet": "xpcall(${1:f}, ${2:err})"
+    },
+    {
+      "text": "gcinfo",
+      "type": "function",
+      "displayText": "gcinfo()",
+      "snippet": "gcinfo()"
+    },
+    {
+      "text": "newproxy",
+      "type": "function",
+      "displayText": "newproxy([mt])",
+      "snippet": "newproxy(${1:[mt]})"
+    },
+    {
+      "text": "and",
+      "type": "keyword"
+    },
+    {
+      "text": "break",
+      "type": "keyword"
+    },
+    {
+      "text": "else",
+      "type": "keyword"
+    },
+    {
+      "text": "elseif",
+      "type": "keyword"
+    },
+    {
+      "text": "end",
+      "type": "keyword"
+    },
+    {
+      "text": "for",
+      "type": "keyword"
+    },
+    {
+      "text": "function",
+      "type": "keyword"
+    },
+    {
+      "text": "goto",
+      "type": "keyword"
+    },
+    {
+      "text": "local",
+      "type": "keyword"
+    },
+    {
+      "text": "not",
+      "type": "keyword"
+    },
+    {
+      "text": "repeat",
+      "type": "keyword"
+    },
+    {
+      "text": "return",
+      "type": "keyword"
+    },
+    {
+      "text": "then",
+      "type": "keyword"
+    },
+    {
+      "text": "until",
+      "type": "keyword"
+    },
+    {
+      "text": "while",
+      "type": "keyword"
+    },
+    {
+      "text": "false",
+      "type": "constant"
+    },
+    {
+      "text": "true",
+      "type": "constant"
+    },
+    {
+      "text": "nil",
+      "type": "constant"
+    },
+    {
+      "text": "_G",
+      "type": "constant"
+    },
+    {
+      "text": "_VERSION",
+      "type": "constant"
+    },
+
+    {
+      "text": "__index",
+      "type": "method"
+    },
+    {
+      "text": "__newindex",
+      "type": "method"
+    },
+    {
+      "text": "__call",
+      "type": "method"
+    },
+    {
+      "text": "__add",
+      "type": "method"
+    },
+    {
+      "text": "__sub",
+      "type": "method"
+    },
+    {
+      "text": "__mul",
+      "type": "method"
+    },
+    {
+      "text": "__div",
+      "type": "method"
+    },
+    {
+      "text": "__mod",
+      "type": "method"
+    },
+    {
+      "text": "__pow",
+      "type": "method"
+    },
+    {
+      "text": "__unm",
+      "type": "method"
+    },
+    {
+      "text": "__concat",
+      "type": "method"
+    },
+    {
+      "text": "__len",
+      "type": "method"
+    },
+    {
+      "text": "__eq",
+      "type": "method"
+    },
+    {
+      "text": "__lt",
+      "type": "method"
+    },
+    {
+      "text": "__le",
+      "type": "method"
+    },
+    {
+      "text": "__gc",
+      "type": "method"
+    },
+    {
+      "text": "__mode",
+      "type": "method"
+    }
+  ],
+  "libraries":
+  {
+    "string":
+    [
+      {
+        "text": "find",
+        "type": "function",
+        "displayText": "find(s, pattern [, init [, plain]])",
+        "snippet": "find(${1:s}, ${2:pattern}, ${3:[init]}, ${4:[plain]})"
+      },
+      {
+        "text": "format",
+        "type": "function",
+        "displayText": "format(str, ...)",
+        "snippet": "format(${1:str}, ${2:...})"
+      },
+      {
+        "text": "rep",
+        "type": "function",
+        "displayText": "rep(s, n [, sep])",
+        "snippet": "rep(${1:s}, ${2:n}, ${3:[sep]})"
+      },
+      {
+        "text": "gsub",
+        "type": "function",
+        "displayText": "gsub(s, pattern, repl [, n])",
+        "snippet": "gsub(${1:s}, ${2:pattern}, ${3:repl}, ${4:[n]})"
+      },
+      {
+        "text": "len",
+        "type": "function",
+        "displayText": "len(s)",
+        "snippet": "len(${1:s})"
+      },
+      {
+        "text": "gmatch",
+        "type": "function",
+        "displayText": "gmatch(s, pattern)",
+        "snippet": "gmatch(${1:s}, ${2:pattern})"
+      },
+      {
+        "text": "dump",
+        "type": "function",
+        "displayText": "dump(function)",
+        "snippet": "dump(${1:function})"
+      },
+      {
+        "text": "match",
+        "type": "function",
+        "displayText": "match(s, pattern [, init])",
+        "snippet": "match(${1:s}, ${2:pattern}, ${3:[init]})"
+      },
+      {
+        "text": "reverse",
+        "type": "function",
+        "displayText": "reverse(s)",
+        "snippet": "reverse(${1:s})"
+      },
+      {
+        "text": "byte",
+        "type": "function",
+        "displayText": "byte(s [, i [, j]])",
+        "snippet": "byte(${1:s}, ${2:[i]}, ${3:[j]})"
+      },
+      {
+        "text": "char",
+        "type": "function",
+        "displayText": "char(...)",
+        "snippet": "char(${1:...})"
+      },
+      {
+        "text": "upper",
+        "type": "function",
+        "displayText": "upper(s)",
+        "snippet": "upper(${1:s})"
+      },
+      {
+        "text": "lower",
+        "type": "function",
+        "displayText": "lower(s)",
+        "snippet": "lower(${1:s})"
+      },
+      {
+        "text": "sub",
+        "type": "function",
+        "displayText": "sub(s, i [, j])",
+        "snippet": "sub(${1:s}, ${2:i}, ${3:[j]})"
+      }
+    ],
+    "table":
+    [
+      {
+        "text": "maxn",
+        "type": "function",
+        "displayText": "maxn(table)",
+        "snippet": "maxn(${1:table})"
+      },
+      {
+        "text": "sort",
+        "type": "function",
+        "displayText": "sort(table [, comp])",
+        "snippet": "sort(${1:table}, ${2:[comp]})"
+      },
+      {
+        "text": "pack",
+        "type": "function",
+        "displayText": "pack(...)",
+        "snippet": "pack(${1:...})"
+      },
+      {
+        "text": "remove",
+        "type": "function",
+        "displayText": "remove(table [, pos])",
+        "snippet": "remove(${1:table}, ${2:[pos]})"
+      },
+      {
+        "text": "unpack",
+        "type": "function",
+        "displayText": "unpack(table [, i [, j]])",
+        "snippet": "unpack(${1:table}, ${2:[i]}, ${3:[j]})"
+      },
+      {
+        "text": "concat",
+        "type": "function",
+        "displayText": "concat(table [, sep [, i [, j]]])",
+        "snippet": "concat(${1:table}, ${2:[sep]}, ${3:[i]}, ${4:[j]})"
+      },
+      {
+        "text": "insert",
+        "type": "function",
+        "displayText": "insert(table, [pos,] value)",
+        "snippet": "insert(${1:table}, ${2:[pos]}, ${3:value})"
+      },
+      {
+        "text": "foreach",
+        "type": "function",
+        "displayText": "foreach(table, f)",
+        "snippet": "foreach(${1:table}, ${2:f})"
+      },
+      {
+        "text": "foreachi",
+        "type": "function",
+        "displayText": "foreachi(table, f)",
+        "snippet": "foreachi(${1:table}, ${2:f})"
+      },
+      {
+        "text": "getn",
+        "type": "function",
+        "displayText": "getn(table)",
+        "snippet": "getn(${1:table})"
+      }
+    ],
+    "math":
+    [
+      {
+        "text": "huge",
+        "type": "constant"
+      },
+      {
+        "text": "pi",
+        "type": "constant"
+      },
+      {
+        "text": "ceil",
+        "type": "function",
+        "displayText": "ceil(x)",
+        "snippet": "ceil(${1:x})"
+      },
+      {
+        "text": "tan",
+        "type": "function",
+        "displayText": "tan(x)",
+        "snippet": "tan(${1:x})"
+      },
+      {
+        "text": "log10",
+        "type": "function",
+        "displayText": "log10(x)",
+        "snippet": "log10(${1:x})"
+      },
+      {
+        "text": "randomseed",
+        "type": "function",
+        "displayText": "randomseed(x)",
+        "snippet": "randomseed(${1:x})"
+      },
+      {
+        "text": "cos",
+        "type": "function",
+        "displayText": "cos(x)",
+        "snippet": "cos(${1:x})"
+      },
+      {
+        "text": "sinh",
+        "type": "function",
+        "displayText": "sinh(x)",
+        "snippet": "sinh(${1:x})"
+      },
+      {
+        "text": "random",
+        "type": "function",
+        "displayText": "random([m [, n]])",
+        "snippet": "random(${1:[m]}, ${2:[n]})"
+      },
+      {
+        "text": "max",
+        "type": "function",
+        "displayText": "max(x, ...)",
+        "snippet": "max(${1:x}, ${2:...})"
+      },
+      {
+        "text": "atan2",
+        "type": "function",
+        "displayText": "atan2(y, x)",
+        "snippet": "atan2(${1:y}, ${2:x})"
+      },
+      {
+        "text": "ldexp",
+        "type": "function",
+        "displayText": "ldexp(m, e)",
+        "snippet": "ldexp(${1:m}, ${2:e})"
+      },
+      {
+        "text": "floor",
+        "type": "function",
+        "displayText": "floor(x)",
+        "snippet": "floor(${1:x})"
+      },
+      {
+        "text": "sqrt",
+        "type": "function",
+        "displayText": "sqrt(x)",
+        "snippet": "sqrt(${1:x})"
+      },
+      {
+        "text": "deg",
+        "type": "function",
+        "displayText": "deg(x)",
+        "snippet": "deg(${1:x})"
+      },
+      {
+        "text": "atan",
+        "type": "function",
+        "displayText": "atan(x)",
+        "snippet": "atan(${1:x})"
+      },
+      {
+        "text": "fmod",
+        "type": "function",
+        "displayText": "fmod(x, y)",
+        "snippet": "fmod(${1:x}, ${2:y})"
+      },
+      {
+        "text": "acos",
+        "type": "function",
+        "displayText": "acos(x)",
+        "snippet": "acos(${1:x})"
+      },
+      {
+        "text": "pow",
+        "type": "function",
+        "displayText": "pow(x, y)",
+        "snippet": "pow(${1:x}, ${2:y})"
+      },
+      {
+        "text": "abs",
+        "type": "function",
+        "displayText": "abs(x)",
+        "snippet": "abs(${1:x})"
+      },
+      {
+        "text": "min",
+        "type": "function",
+        "displayText": "min(x, ...)",
+        "snippet": "min(${1:x}, ${2:...})"
+      },
+      {
+        "text": "log",
+        "type": "function",
+        "displayText": "log(x [, base])",
+        "snippet": "log(${1:x}, ${2:[base]})"
+      },
+      {
+        "text": "frexp",
+        "type": "function",
+        "displayText": "frexp(x)",
+        "snippet": "frexp(${1:x})"
+      },
+      {
+        "text": "sin",
+        "type": "function",
+        "displayText": "sin(x)",
+        "snippet": "sin(${1:x})"
+      },
+      {
+        "text": "tanh",
+        "type": "function",
+        "displayText": "tanh(x)",
+        "snippet": "tanh(${1:x})"
+      },
+      {
+        "text": "exp",
+        "type": "function",
+        "displayText": "exp(x)",
+        "snippet": "exp(${1:x})"
+      },
+      {
+        "text": "modf",
+        "type": "function",
+        "displayText": "modf(x)",
+        "snippet": "modf(${1:x})"
+      },
+      {
+        "text": "cosh",
+        "type": "function",
+        "displayText": "cosh(x)",
+        "snippet": "cosh(${1:x})"
+      },
+      {
+        "text": "asin",
+        "type": "function",
+        "displayText": "asin(x)",
+        "snippet": "asin(${1:x})"
+      },
+      {
+        "text": "rad",
+        "type": "function",
+        "displayText": "rad(x)",
+        "snippet": "rad(${1:x})"
+      }
+    ],
+    "coroutine":
+    [
+      {
+        "text": "yield",
+        "type": "function",
+        "displayText": "yield(...)",
+        "snippet": "yield(${1:...})"
+      },
+      {
+        "text": "wrap",
+        "type": "function",
+        "displayText": "wrap(f)",
+        "snippet": "wrap(${1:f})"
+      },
+      {
+        "text": "create",
+        "type": "function",
+        "displayText": "create(f)",
+        "snippet": "create(${1:f})"
+      },
+      {
+        "text": "status",
+        "type": "function",
+        "displayText": "status(co)",
+        "snippet": "status(${1:co})"
+      },
+      {
+        "text": "resume",
+        "type": "function",
+        "displayText": "resume(co [, val1, ...])",
+        "snippet": "resume(${1:co}, ${2:[val1, ...]})"
+      },
+      {
+        "text": "running",
+        "type": "function",
+        "displayText": "running()",
+        "snippet": "running()"
+      }
+    ],
+    "io":
+    [
+      {
+        "text": "stdin",
+        "type": "variable"
+      },
+      {
+        "text": "stdout",
+        "type": "variable"
+      },
+      {
+        "text": "stderr",
+        "type": "variable"
+      },
+      {
+        "text": "input",
+        "type": "function",
+        "displayText": "input([file])",
+        "snippet": "input(${1:[file]})"
+      },
+      {
+        "text": "tmpfile",
+        "type": "function",
+        "displayText": "tmpfile()",
+        "snippet": "tmpfile()"
+      },
+      {
+        "text": "output",
+        "type": "function",
+        "displayText": "output([file])",
+        "snippet": "output(${1:[file]})"
+      },
+      {
+        "text": "open",
+        "type": "function",
+        "displayText": "open(filename [, mode])",
+        "snippet": "open(${1:filename}, ${2:[mode]})"
+      },
+      {
+        "text": "popen",
+        "type": "function",
+        "displayText": "popen(prog [, mode])",
+        "snippet": "popen(${1:prog}, ${2:[mode]})"
+      },
+      {
+        "text": "type",
+        "type": "function",
+        "displayText": "type(obj)",
+        "snippet": "type(${1:obj})"
+      },
+      {
+        "text": "read",
+        "type": "function",
+        "displayText": "read(...)",
+        "snippet": "read(${1:...})"
+      },
+      {
+        "text": "close",
+        "type": "function",
+        "displayText": "close([file])",
+        "snippet": "close(${1:[file]})"
+      },
+      {
+        "text": "write",
+        "type": "function",
+        "displayText": "write(...)",
+        "snippet": "write(${1:...})"
+      },
+      {
+        "text": "flush",
+        "type": "function",
+        "displayText": "flush()",
+        "snippet": "flush()"
+      },
+      {
+        "text": "lines",
+        "type": "function",
+        "displayText": "lines([filename])",
+        "snippet": "lines(${1:[filename]})"
+      }
+    ],
+    "os":
+    [
+      {
+        "text": "execute",
+        "type": "function",
+        "displayText": "execute([command])",
+        "snippet": "execute(${1:[command]})"
+      },
+      {
+        "text": "rename",
+        "type": "function",
+        "displayText": "rename(oldname, newname)",
+        "snippet": "rename(${1:oldname}, ${2:newname})"
+      },
+      {
+        "text": "setlocale",
+        "type": "function",
+        "displayText": "setlocale(locale [, category])",
+        "snippet": "setlocale(${1:locale}, ${2:[category]})"
+      },
+      {
+        "text": "getenv",
+        "type": "function",
+        "displayText": "getenv(varname)",
+        "snippet": "getenv(${1:varname})"
+      },
+      {
+        "text": "difftime",
+        "type": "function",
+        "displayText": "difftime(t2, t1)",
+        "snippet": "difftime(${1:t2}, ${2:t1})"
+      },
+      {
+        "text": "remove",
+        "type": "function",
+        "displayText": "remove(filename)",
+        "snippet": "remove(${1:filename})"
+      },
+      {
+        "text": "date",
+        "type": "function",
+        "displayText": "date([format [, time]])",
+        "snippet": "date(${1:[format]}, ${2:[time]})"
+      },
+      {
+        "text": "exit",
+        "type": "function",
+        "displayText": "exit([code])",
+        "snippet": "exit(${1:[code]})"
+      },
+      {
+        "text": "time",
+        "type": "function",
+        "displayText": "time([table])",
+        "snippet": "time(${1:[table]})"
+      },
+      {
+        "text": "clock",
+        "type": "function",
+        "displayText": "clock()",
+        "snippet": "clock()"
+      },
+      {
+        "text": "tmpname",
+        "type": "function",
+        "displayText": "tmpname()",
+        "snippet": "tmpname()"
+      }
+    ],
+    "debug":
+    [
+      {
+        "text": "setupvalue",
+        "type": "function",
+        "displayText": "setupvalue(func, up, value)",
+        "snippet": "setupvalue(${1:func}, ${2:up}, ${3:value})"
+      },
+      {
+        "text": "getregistry",
+        "type": "function",
+        "displayText": "getregistry()",
+        "snippet": "getregistry()"
+      },
+      {
+        "text": "traceback",
+        "type": "function",
+        "displayText": "traceback([thread,] [message [, level]])",
+        "snippet": "traceback(${1:[thread]}, ${2:[message]}, ${3:[level]})"
+      },
+      {
+        "text": "setlocal",
+        "type": "function",
+        "displayText": "setlocal([thread,] level, local, value)",
+        "snippet": "setlocal(${1:[thread]}, ${2:level}, ${3:local}, ${4:value})"
+      },
+      {
+        "text": "getupvalue",
+        "type": "function",
+        "displayText": "getupvalue(func, up)",
+        "snippet": "getupvalue(${1:func}, ${2:up})"
+      },
+      {
+        "text": "gethook",
+        "type": "function",
+        "displayText": "gethook([thread])",
+        "snippet": "gethook(${1:[thread]})"
+      },
+      {
+        "text": "sethook",
+        "type": "function",
+        "displayText": "sethook([thread,] hook, mask [, count])",
+        "snippet": "sethook(${1:[thread]}, ${2:hook}, ${3:mask}, ${4:[count]})"
+      },
+      {
+        "text": "getlocal",
+        "type": "function",
+        "displayText": "getlocal([thread,] f, local)",
+        "snippet": "getlocal(${1:[thread]}, ${2:f}, ${3:local})"
+      },
+      {
+        "text": "upvaluejoin",
+        "type": "function",
+        "displayText": "upvaluejoin(f1, n1, f2, n2)",
+        "snippet": "upvaluejoin(${1:f1}, ${2:n1}, ${3:f2}, ${4:n2})"
+      },
+      {
+        "text": "getinfo",
+        "type": "function",
+        "displayText": "getinfo([thread,] function [, what])",
+        "snippet": "getinfo(${1:[thread]}, ${2:function}, ${3:[what]})"
+      },
+      {
+        "text": "getfenv",
+        "type": "function",
+        "displayText": "getfenv(o)",
+        "snippet": "getfenv(${1:o})"
+      },
+      {
+        "text": "setmetatable",
+        "type": "function",
+        "displayText": "setmetatable(object, table)",
+        "snippet": "setmetatable(${1:object}, ${2:table})"
+      },
+      {
+        "text": "upvalueid",
+        "type": "function",
+        "displayText": "upvalueid(f, n)",
+        "snippet": "upvalueid(${1:f}, ${2:n})"
+      },
+      {
+        "text": "getuservalue",
+        "type": "function",
+        "displayText": "getuservalue(u)",
+        "snippet": "getuservalue(${1:u})"
+      },
+      {
+        "text": "debug",
+        "type": "function",
+        "displayText": "debug()",
+        "snippet": "debug()"
+      },
+      {
+        "text": "getmetatable",
+        "type": "function",
+        "displayText": "getmetatable(object)",
+        "snippet": "getmetatable(${1:object})"
+      },
+      {
+        "text": "setfenv",
+        "type": "function",
+        "displayText": "setfenv(object, table)",
+        "snippet": "setfenv(${1:object}, ${2:table})"
+      },
+      {
+        "text": "setuservalue",
+        "type": "function",
+        "displayText": "setuservalue(udata, value)",
+        "snippet": "setuservalue(${1:udata}, ${2:value})"
+      }
+    ],
+    "package":
+    [
+      {
+        "text": "preload",
+        "type": "variable"
+      },
+      {
+        "text": "path",
+        "type": "variable"
+      },
+      {
+        "text": "loaded",
+        "type": "variable"
+      },
+      {
+        "text": "cpath",
+        "type": "variable"
+      },
+      {
+        "text": "loaders",
+        "type": "variable"
+      },
+      {
+        "text": "config",
+        "type": "variable"
+      },
+      {
+        "text": "seeall",
+        "type": "function",
+        "displayText": "seeall(module)",
+        "snippet": "seeall(${1:module})"
+      },
+      {
+        "text": "loadlib",
+        "type": "function",
+        "displayText": "loadlib(libname, funcname)",
+        "snippet": "loadlib(${1:libname}, ${2:funcname})"
+      },
+      {
+        "text": "searchpath",
+        "type": "function",
+        "displayText": "searchpath(name, path [, sep [, rep]])",
+        "snippet": "searchpath(${1:name}, ${2:path}, ${3:[sep]}, ${4:[rep]})"
+      }
+    ],
+    "bit":
+    [
+      {
+        "text": "rol",
+        "type": "function",
+        "displayText": "rol(x, n)",
+        "snippet": "rol(${1:x}, ${2:n})"
+      },
+      {
+        "text": "rshift",
+        "type": "function",
+        "displayText": "rshift(x, n)",
+        "snippet": "rshift(${1:x}, ${2:n})"
+      },
+      {
+        "text": "ror",
+        "type": "function",
+        "displayText": "ror(x, n)",
+        "snippet": "ror(${1:x}, ${2:n})"
+      },
+      {
+        "text": "bswap",
+        "type": "function",
+        "displayText": "bswap(x)",
+        "snippet": "bswap(${1:x})"
+      },
+      {
+        "text": "bxor",
+        "type": "function",
+        "displayText": "bxor(x1 [, x2, ...])",
+        "snippet": "bxor(${1:x1}, ${2:[x2, ...]})"
+      },
+      {
+        "text": "bor",
+        "type": "function",
+        "displayText": "bor(x1 [, x2, ...])",
+        "snippet": "bor(${1:x1}, ${2:[x2, ...]})"
+      },
+      {
+        "text": "arshift",
+        "type": "function",
+        "displayText": "arshift(x, n)",
+        "snippet": "arshift(${1:x}, ${2:n})"
+      },
+      {
+        "text": "bnot",
+        "type": "function",
+        "displayText": "bnot(x)",
+        "snippet": "bnot(${1:x})"
+      },
+      {
+        "text": "tobit",
+        "type": "function",
+        "displayText": "tobit(x)",
+        "snippet": "tobit(${1:x})"
+      },
+      {
+        "text": "lshift",
+        "type": "function",
+        "displayText": "lshift(x, n)",
+        "snippet": "lshift(${1:x}, ${2:n})"
+      },
+      {
+        "text": "tohex",
+        "type": "function",
+        "displayText": "tohex(x [, n])",
+        "snippet": "tohex(${1:x}, ${2:[n]})"
+      },
+      {
+        "text": "band",
+        "type": "function",
+        "displayText": "band(x1 [, x2, ...])",
+        "snippet": "band(${1:x1}, ${2:[x2, ...]})"
+      }
+    ],
+    "jit":
+    [
+      {
+        "text": "arch",
+        "type": "variable"
+      },
+      {
+        "text": "version",
+        "type": "variable"
+      },
+      {
+        "text": "version_num",
+        "type": "variable"
+      },
+      {
+        "text": "util",
+        "type": "variable"
+      },
+      {
+        "text": "opt",
+        "type": "variable"
+      },
+      {
+        "text": "os",
+        "type": "variable"
+      },
+      {
+        "text": "status",
+        "type": "function",
+        "displayText": "status()",
+        "snippet": "status()"
+      },
+      {
+        "text": "on",
+        "type": "function",
+        "displayText": "on()",
+        "snippet": "on()"
+      },
+      {
+        "text": "off",
+        "type": "function",
+        "displayText": "off()",
+        "snippet": "off()"
+      },
+      {
+        "text": "flush",
+        "type": "function",
+        "displayText": "flush([tr])",
+        "snippet": "flush(${1:[tr]})"
+      },
+      {
+        "text": "attach",
+        "type": "function",
+        "displayText": "attach(cb, ev)",
+        "snippet": "attach(${1:cb}, ${2:ev})"
+      }
+    ],
+    "ffi":
+    [
+      {
+        "text": "arch",
+        "type": "variable"
+      },
+      {
+        "text": "os",
+        "type": "variable"
+      },
+      {
+        "text": "new",
+        "type": "function",
+        "displayText": "new(ct [, nelem [, init, ...]])",
+        "snippet": "new(${1:ct}, ${2:[nelem]}, ${3:[init, ...]})"
+      },
+      {
+        "text": "cast",
+        "type": "function",
+        "displayText": "cast(ct, init)",
+        "snippet": "cast(${1:ct}, ${2:init})"
+      },
+      {
+        "text": "typeof",
+        "type": "function",
+        "displayText": "typeof(ct)",
+        "snippet": "typeof(${1:ct})"
+      },
+      {
+        "text": "sizeof",
+        "type": "function",
+        "displayText": "sizeof(ct [, nelem])",
+        "snippet": "sizeof(${1:ct}, ${2:[nelem]})"
+      },
+      {
+        "text": "alignof",
+        "type": "function",
+        "displayText": "alignof(ct)",
+        "snippet": "alignof(${1:ct})"
+      },
+      {
+        "text": "istype",
+        "type": "function",
+        "displayText": "istype(ct, obj)",
+        "snippet": "istype(${1:ct}, ${2:obj})"
+      },
+      {
+        "text": "fill",
+        "type": "function",
+        "displayText": "fill(dst, len [, c])",
+        "snippet": "fill(${1:dst}, ${2:len}, ${3:[c]})"
+      },
+      {
+        "text": "cdef",
+        "type": "function",
+        "displayText": "cdef(def)",
+        "snippet": "cdef(${1:def})"
+      },
+      {
+        "text": "abi",
+        "type": "function",
+        "displayText": "abi(param)",
+        "snippet": "abi(${1:param})"
+      },
+      {
+        "text": "metatype",
+        "type": "function",
+        "displayText": "metatype(ct, metatable)",
+        "snippet": "metatype(${1:ct}, ${2:metatable})"
+      },
+      {
+        "text": "copy",
+        "type": "function",
+        "displayText": "copy(dst, src [, len])",
+        "snippet": "copy(${1:dst}, ${2:src}, ${3:[len]})"
+      },
+      {
+        "text": "errno",
+        "type": "function",
+        "displayText": "errno([newerr])",
+        "snippet": "errno(${1:[newerr]})"
+      },
+      {
+        "text": "load",
+        "type": "function",
+        "displayText": "load(name [, global])",
+        "snippet": "load(${1:name}, ${2:[global]})"
+      },
+      {
+        "text": "string",
+        "type": "function",
+        "displayText": "string(ptr [, len])",
+        "snippet": "string(${1:ptr}, ${2:[len]})"
+      },
+      {
+        "text": "gc",
+        "type": "function",
+        "displayText": "gc(cdata, finalizer)",
+        "snippet": "gc(${1:cdata}, ${2:finalizer})"
+      },
+      {
+        "text": "offsetof",
+        "type": "function",
+        "displayText": "offsetof(ct, field)",
+        "snippet": "offsetof(${1:ct}, ${2:field})"
+      }
+    ]
+  },
+  "members":
+  [
+    {
+      "text": "close",
+      "type": "method",
+      "displayText": "close()",
+      "snippet": "close()",
+      "rightLabel": "file"
+    },
+    {
+      "text": "flush",
+      "type": "method",
+      "displayText": "flush()",
+      "snippet": "flush()",
+      "rightLabel": "file"
+    },
+    {
+      "text": "lines",
+      "type": "method",
+      "displayText": "lines()",
+      "snippet": "lines()",
+      "rightLabel": "file"
+    },
+    {
+      "text": "read",
+      "type": "method",
+      "displayText": "read(...)",
+      "snippet": "read(${1:...})",
+      "rightLabel": "file"
+    },
+    {
+      "text": "write",
+      "type": "method",
+      "displayText": "write(...)",
+      "snippet": "write(${1:...})",
+      "rightLabel": "file"
+    },
+    {
+      "text": "seek",
+      "type": "method",
+      "displayText": "seek([whence] [, offset])",
+      "snippet": "seek(${1:[whence]}, ${2:[offset]})",
+      "rightLabel": "file"
+    },
+    {
+      "text": "setvbuf",
+      "type": "method",
+      "displayText": "setvbuf(mode [, size])",
+      "snippet": "setvbuf(${1:mode}, ${2:[size]})",
+      "rightLabel": "file"
+    },
+    {
+      "text": "find",
+      "type": "method",
+      "displayText": "find(pattern [, init [, plain]])",
+      "snippet": "find(${1:pattern}, ${2:[init]}, ${3:[plain]})",
+      "rightLabel": "string"
+    },
+    {
+      "text": "format",
+      "type": "method",
+      "displayText": "format(...)",
+      "snippet": "format(${1:...})",
+      "rightLabel": "string"
+    },
+    {
+      "text": "rep",
+      "type": "method",
+      "displayText": "rep(n [, sep])",
+      "snippet": "rep(${1:n}, ${2:[sep]})",
+      "rightLabel": "string"
+    },
+    {
+      "text": "gsub",
+      "type": "method",
+      "displayText": "gsub(pattern, repl [, n])",
+      "snippet": "gsub(${1:pattern}, ${2:repl}, ${3:[n]})",
+      "rightLabel": "string"
+    },
+    {
+      "text": "len",
+      "type": "method",
+      "displayText": "len()",
+      "snippet": "len()",
+      "rightLabel": "string"
+    },
+    {
+      "text": "gmatch",
+      "type": "method",
+      "displayText": "gmatch(pattern)",
+      "snippet": "gmatch(${1:pattern})",
+      "rightLabel": "string"
+    },
+    {
+      "text": "match",
+      "type": "method",
+      "displayText": "match(pattern [, init])",
+      "snippet": "match(${1:pattern}, ${2:[init]})",
+      "rightLabel": "string"
+    },
+    {
+      "text": "reverse",
+      "type": "method",
+      "displayText": "reverse()",
+      "snippet": "reverse()",
+      "rightLabel": "string"
+    },
+    {
+      "text": "byte",
+      "type": "method",
+      "displayText": "byte([i [, j]])",
+      "snippet": "byte(${1:[i]}, ${2:[j]})",
+      "rightLabel": "string"
+    },
+    {
+      "text": "upper",
+      "type": "method",
+      "displayText": "upper()",
+      "snippet": "upper()",
+      "rightLabel": "string"
+    },
+    {
+      "text": "lower",
+      "type": "method",
+      "displayText": "lower()",
+      "snippet": "lower()",
+      "rightLabel": "string"
+    },
+    {
+      "text": "sub",
+      "type": "method",
+      "displayText": "sub(i [, j])",
+      "snippet": "sub(${1:i}, ${2:[j]})",
+      "rightLabel": "string"
+    },
+    {
+      "text": "resume",
+      "type": "method",
+      "displayText": "resume([val1, ...])",
+      "snippet": "resume(${1:[val1, ...]})",
+      "rightLabel": "coroutine"
+    },
+    {
+      "text": "status",
+      "type": "method",
+      "displayText": "status()",
+      "snippet": "status()",
+      "rightLabel": "coroutine"
+    }
+  ]
+}

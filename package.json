@@ -1,0 +1,26 @@
+{
+  "name": "language-luajit",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Lua syntax highlighting and autocompletion with LuaJIT support.",
+  "keywords": [
+    "lua",
+    "luajit",
+    "autocomplete",
+    "language",
+    "syntax"
+  ],
+  "repository": "https://github.com/THE-FYP/language-luajit",
+  "homepage": "https://atom.io/packages/language-luajit",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  }
+}

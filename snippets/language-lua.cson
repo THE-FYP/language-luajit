@@ -1,0 +1,34 @@
+'.source.lua':
+  'function':
+    'prefix': 'fun'
+    'body': 'function ${1:functionName}(${2:args})\n\t${0}\nend'
+  'anonymous function':
+    'prefix': 'funa'
+    'body': 'function(${1:args})\n\t${0}\nend'
+  'while loop':
+    'prefix': 'whi'
+    'body': 'while ${1:condition} do\n\t${0}\nend'
+  'repeat loop':
+    'prefix': 'rep'
+    'body': 'repeat\n\t${0}\nuntil ${1:condition}'
+  'for i = 1, x':
+    'prefix': 'for'
+    'body': 'for ${1:i} = ${2:1}, ${3:x} do\n\t${0}\nend'
+  'for k, v in pairs()':
+    'prefix': 'forp'
+    'body': 'for ${1:k}, ${2:v} in pairs(${3:table}) do\n\t${0}\nend'
+  'for i, v in ipairs()':
+    'prefix': 'fori'
+    'body': 'for ${1:i}, ${2:v} in ipairs(${3:table}) do\n\t${0}\nend'
+  'local table definition':
+    'prefix': 'ltab'
+    'body': 'local ${1:name} = {$0}'
+  'if conditional':
+    'prefix': 'if',
+    'body': 'if ${1:condition} then\n\t${0}\nend'
+  'if else conditional':
+    'prefix': 'ife',
+    'body': 'if ${1:condition} then\n\t${2}\nelse\n\t${0}\nend'
+  'elseif conditional':
+    'prefix': 'elif',
+    'body': 'elseif ${1:condition} then\n\t${0}\n'
