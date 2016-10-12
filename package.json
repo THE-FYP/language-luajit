@@ -2,7 +2,7 @@
   "name": "language-luajit",
   "main": "./lib/main",
   "version": "1.0.0",
-  "description": "Lua syntax highlighting and autocompletion with LuaJIT support.",
+  "description": "Lua syntax highlighting and autocompletion with LuaJIT support",
   "keywords": [
     "lua",
     "luajit",
@@ -16,6 +16,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "activationHooks": "language-luajit:grammar-used",
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
