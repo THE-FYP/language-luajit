@@ -1,5 +1,5 @@
 {
-  "words":
+  "global":
   [
     {
       "text": "string",
@@ -196,78 +196,6 @@
       "snippet": "newproxy(${1:[mt]})"
     },
     {
-      "text": "and",
-      "type": "keyword"
-    },
-    {
-      "text": "break",
-      "type": "keyword"
-    },
-    {
-      "text": "else",
-      "type": "keyword"
-    },
-    {
-      "text": "elseif",
-      "type": "keyword"
-    },
-    {
-      "text": "end",
-      "type": "keyword"
-    },
-    {
-      "text": "for",
-      "type": "keyword"
-    },
-    {
-      "text": "function",
-      "type": "keyword"
-    },
-    {
-      "text": "goto",
-      "type": "keyword"
-    },
-    {
-      "text": "local",
-      "type": "keyword"
-    },
-    {
-      "text": "not",
-      "type": "keyword"
-    },
-    {
-      "text": "repeat",
-      "type": "keyword"
-    },
-    {
-      "text": "return",
-      "type": "keyword"
-    },
-    {
-      "text": "then",
-      "type": "keyword"
-    },
-    {
-      "text": "until",
-      "type": "keyword"
-    },
-    {
-      "text": "while",
-      "type": "keyword"
-    },
-    {
-      "text": "false",
-      "type": "constant"
-    },
-    {
-      "text": "true",
-      "type": "constant"
-    },
-    {
-      "text": "nil",
-      "type": "constant"
-    },
-    {
       "text": "_G",
       "type": "constant"
     },
@@ -343,6 +271,81 @@
     {
       "text": "__mode",
       "type": "method"
+    }
+  ],
+  "keywords":
+  [
+    {
+      "text": "and",
+      "type": "keyword"
+    },
+    {
+      "text": "break",
+      "type": "keyword"
+    },
+    {
+      "text": "else",
+      "type": "keyword"
+    },
+    {
+      "text": "elseif",
+      "type": "keyword"
+    },
+    {
+      "text": "end",
+      "type": "keyword"
+    },
+    {
+      "text": "for",
+      "type": "keyword"
+    },
+    {
+      "text": "function",
+      "type": "keyword"
+    },
+    {
+      "text": "goto",
+      "type": "keyword"
+    },
+    {
+      "text": "local",
+      "type": "keyword"
+    },
+    {
+      "text": "not",
+      "type": "keyword"
+    },
+    {
+      "text": "repeat",
+      "type": "keyword"
+    },
+    {
+      "text": "return",
+      "type": "keyword"
+    },
+    {
+      "text": "then",
+      "type": "keyword"
+    },
+    {
+      "text": "until",
+      "type": "keyword"
+    },
+    {
+      "text": "while",
+      "type": "keyword"
+    },
+    {
+      "text": "false",
+      "type": "constant"
+    },
+    {
+      "text": "true",
+      "type": "constant"
+    },
+    {
+      "text": "nil",
+      "type": "constant"
     }
   ],
   "libraries":

@@ -10,11 +10,13 @@ module.exports =
   getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix, activatedManually}) ->
     prefix = @getPrefix(editor, bufferPosition)
     return null if not prefix? and not activatedManually
-    return @findSuggestions(@completions.words, '') if not prefix?
+    if atom.config.get("language-luajit.onlyKeywords") is true
+      return @findSuggestions(@completions.keywords, if prefix then prefix.left else '')
+    return @findSuggestions(@completions.global, '') if not prefix?
     return null if prefix.delim is '.' and not @completions.libraries[prefix.left]?
     return @findSuggestions(@completions.libraries[prefix.left], prefix.right) if prefix.delim is '.'
     return @findSuggestions(@completions.members, prefix.right) if prefix.delim is ':'
-    return @findSuggestions(@completions.words, prefix.left, ["function"])
+    return @findSuggestions(@completions.global, prefix.left, ["function"])
 
   findSuggestions: (completions, prefix, fullmatchonly = null) ->
     prefix ?= ''
@@ -38,7 +40,9 @@ module.exports =
   loadCompletions: ->
     @completions = {}
     fs.readFile path.resolve(__dirname, '..', './data/autocompletion.json'), (error, data) =>
-      @completions = JSON.parse(data) unless error?
+      unless error?
+        @completions = JSON.parse(data)
+        Array::push.apply(@completions.global, @completions.keywords)
       return
 
   getPrefix: (editor, bufferPosition) ->
